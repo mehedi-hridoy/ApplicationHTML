@@ -1,0 +1,14 @@
+body {
+    width: 210mm;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20mm;
+    font-size: 12pt;
+    overflow-x: hidden;
+  }
+
+  @media print {
+    body {
+      padding: 20mm;
+    }
+  }
